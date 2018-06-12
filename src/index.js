@@ -2,7 +2,7 @@ import Navigo from 'navigo';
 import firebase from 'firebase';
 import catchLinks from 'catch-links';
 
-import listar from './modulos/listado';
+import listado from './modulos/listado';
 import nuevo from './modulos/nuevo';
 
 import firebaseConfig from '../firebase.config';
