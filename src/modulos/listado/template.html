@@ -1,0 +1,23 @@
+
+<table class='table '>
+    <thead class='thead-dark'>
+        <tr>
+            <th>#</th>
+            <th>Marca</th>
+            <th>Modelo</th>
+            <th>Cilindrada</th>
+            <th>Año</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each motos}}
+            <tr>
+                <td>{{id}}</td>
+                <td>{{Marca}}</td>
+                <td>{{Modelo}}</td>
+                <td>{{Cilindrada}}</td>
+                <td>{{Año}}</td>
+            </tr>
+        {{/each}}
+    </tbody>
+</table>
